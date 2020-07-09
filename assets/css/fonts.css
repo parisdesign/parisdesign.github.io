@@ -1,0 +1,86 @@
+/* IRAN Yekan */
+@font-face {
+    font-family: yekanN;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Yekan/iranyekanwebregularfanum.eot');
+    src: url('../fonts/Yekan/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Yekan/iranyekanwebregularfanum.woff') format('woff'),
+        url('../fonts/Yekan/iranyekanwebregularfanum.ttf') format('truetype');
+}
+@font-face {
+    font-family: yekanB;
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/Yekan/iranyekanwebextraboldfanum.eot');
+    src: url('../fonts/Yekan/iranyekanwebextraboldfanum.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Yekan/iranyekanwebextraboldfanum.woff') format('woff'),
+        url('../fonts/Yekan/iranyekanwebextraboldfanum.ttf') format('truetype');
+}
+/* IRAN Sans */
+@font-face {
+    font-family: IRANSansB;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Sans/IRANSansWeb_Bold.eot');
+    src: url('../fonts/Sans/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sans/IRANSansWeb_Bold.woff2') format('woff2'),
+        url('../fonts/Sans/IRANSansWeb_Bold.woff') format('woff'),
+        url('../fonts/Sans/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSansN;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Sans/IRANSansWeb_Light.eot');
+    src: url('../fonts/Sans/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sans/IRANSansWeb_Light.woff2') format('woff2'),
+        url('../fonts/Sans/IRANSansWeb_Light.woff') format('woff'),
+        url('../fonts/Sans/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: GochiHand;
+    src: url("../fonts/Gochi/GochiHand-Regular.eot");
+    src: url("../fonts/Gochi/GochiHand-Regular.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Gochi/GochiHand-Regular.otf") format("opentype"),
+      url("../fonts/Gochi/GochiHand-Regular.ttf") format("truetype"),
+      url("../fonts/Gochi/GochiHand-Regular.woff") format("woff"),
+      url("../fonts/Gochi/GochiHand-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* init */
+body {
+    font-weight: normal;
+}
+
+/* letter spacing */
+.letter-spacing-1 {letter-spacing: 1px !important}
+.letter-spacing-05 {letter-spacing: 0.5px !important}
+
+/* align font */
+.text-left {text-align: left !important}
+.text-right {text-align: right !important}
+.text-center {text-align: center !important}
+.text-justify {text-align: justify !important}
+
+/* set font */
+.yekan {font-family: yekanN !important}
+.irsans {font-family: IRANSansN !important}
+.yekan-bold {font-family: yekanB !important}
+.irsans-bold {font-family: IRANSansB !important}
+.recapcha-font {font-family: GochiHand !important; font-style: italic;}
+
+/* set size */
+.font-10 {font-size: 10px !important}
+.font-12 {font-size: 12px !important}
+.font-14 {font-size: 14px !important}
+.font-16 {font-size: 16px !important}
+.font-18 {font-size: 18px !important}
+.font-20 {font-size: 20px !important}
+.font-22 {font-size: 22px !important}
+.font-24 {font-size: 24px !important}
+.font-26 {font-size: 26px !important}
+.font-28 {font-size: 28px !important}
+.font-30 {font-size: 30px !important}

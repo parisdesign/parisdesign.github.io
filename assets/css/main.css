@@ -1,0 +1,326 @@
+@import './lib.css';
+@import './fonts.css';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Kalam', cursive !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10000;
+    position: fixed;
+    line-height: 50px;
+    text-align: center;
+}
+
+header.black {
+    background-color: #000;
+}
+
+.fast-menu {
+    right: 30px;
+    bottom: 35px;
+    position: fixed;
+}
+
+.point {
+    width: 13px;
+    height: 13px;
+    margin: 10px 0;
+    background-color: #707070;
+}
+
+.point.active {
+    background-color: #C8C5C5;
+}
+
+.point:hover {
+    background-color: #C8C5C5;
+}
+
+.main-menu {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.main-menu li {
+    color: #fff;
+    outline: none;
+    margin: 0 16px;
+    padding: 0 20px;
+    line-height: 46px;
+    display: inline-block;
+    transition-duration: 0.3s;
+    border-bottom: 4px solid transparent;
+}
+
+.main-menu li:hover {
+    border-bottom: 4px solid #aaaaaa;
+}
+
+
+section {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 50px;
+    height: calc(100vh - 50px);
+}
+
+/* ----------------- home ----------------- */
+
+#home {
+    padding-top: 0;
+    overflow: hidden;
+    height: 100vh !important;
+}
+
+#home h3 {
+    top: 40vh;
+    left: 10vw;
+    color: #fff;
+    font-size: 40px;
+    user-select: none;
+    position: absolute;
+}
+
+/* ----------------- about ----------------- */
+
+#about {
+    height: 100vh;
+    display: flex;
+    font-size: 20px;
+    line-height: 33px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about h3 {
+    font-family:Comic Sans MS;
+    font-size: 40px;
+    color: #6F55F7;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+#about img {
+    height: 440px;
+}
+
+.adobe-icons {
+    display: flex;
+    margin-top: 16px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.adobe-icons img {
+    width: 40px;
+    margin: 0 4px;
+    height: 40px !important;
+}
+
+/* ----------------- project ----------------- */
+
+#projects {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background: #000 url('../images/BG.jpg') no-repeat center;
+}
+
+#projects h1 {
+    font-family:Comic Sans MS;
+    font-size: 40px;
+    color: #6F55F7;
+    margin-top: 45px;
+}
+
+.flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 270px;
+}
+
+.slider-wrapper div {
+    position: relative;
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    margin-top: 4vw;
+}
+
+.slide-image {
+    height: 16vw;
+    margin-right: 0.3vw;
+}
+
+.slide-image img {
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: -0.4vw;
+}
+
+.slide-content {
+    width: 100vw;
+    color: #fff;
+    padding: 16px;
+}
+
+.slide-date {
+    color: #0B74AA;
+    font-size: 1.1vw;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    padding-bottom: 1.4vw;
+}
+
+.slide-title {
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 1.55vw;
+    letter-spacing: 0.1vw;
+    padding-bottom: 1.2vw;
+}
+
+.slide-text {
+    width: 40%;
+    opacity: 0.8;
+    font-size: 1.1vw;
+    line-height: 1.6vw;
+    padding-bottom: 4vw;
+}
+
+.slide-more {
+    float: left;
+    font-weight: 400;
+    font-size: 0.9vw;
+    letter-spacing: 0.1vw;
+}
+
+.slide-bullet {
+    width: 0.5vw;
+    height: 0.5vw;
+    border-radius: 200%;
+    position: relative;
+    margin-left: 1.2vw;
+    background-color: #ffe600;
+}
+
+.slide-nav {
+    margin-left: 64vw;
+    margin-top: -5.5vw;
+}
+
+div.overlay-blue {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: 0.5s ease all;
+}
+
+div.overlay-blue:hover {
+    background-color: rgba(30, 40, 60, 0.5);
+}
+
+.arrows {
+    width: 3.5vw;
+    margin-left: 46vw;
+    position: relative;
+}
+
+.arrow {
+    display: inline-block;
+    position: absolute;
+    width: 1.2vw;
+    height: 1.2vw;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 0.15vw solid #0B74AA;
+    border-left: 0.15vw solid #0B74AA;
+    transition: all .1s ease-in-out;
+    text-decoration: none;
+    color: transparent;
+}
+
+.arrow:hover {
+    border-width: 0.25vw;
+    border-color: #fff;
+}
+
+.arrow:before {
+    display: block;
+    height: 200%;
+    width: 200%;
+    margin-left: -50%;
+    margin-top: -50%;
+    content: "";
+    transform: rotate(45deg);
+}
+
+.arrow.prev {
+    transform: rotate(-45deg);
+    left: 0;
+}
+
+.arrow.next {
+    transform: rotate(135deg);
+    right: 0;
+}
+
+/* ----------------- contact ----------------- */
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover !important;
+    background: #000 url('../images/Flovers.png') no-repeat center;
+}
+
+
+#contact h1 {
+    font-family:Comic Sans MS;
+    font-size: 40px;
+    color: #6F55F7;
+    margin-top: -230px;
+    margin-bottom: 40px;
+}
+
+#contact img {
+    width: 130px;
+    margin: 0px 10px;
+    transition-duration: 0.3s;
+}
+
+#contact img:hover {
+    transform: scale(0.8)
+}
