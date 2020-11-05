@@ -8,6 +8,7 @@ html {
 body {
     font-family: 'Kalam', cursive !important;
     -webkit-font-smoothing: antialiased;
+    background-color: #FEFCFF;
 }
 
 a {
@@ -105,7 +106,7 @@ section {
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    background: #FEFCFF;
+    background-color: #FEFCFF;
 }
 
 #about h3 {
