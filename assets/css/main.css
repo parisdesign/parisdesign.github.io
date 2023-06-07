@@ -124,7 +124,7 @@ section {
 
 .adobe-icons {
     display: flex;
-    margin-top: 16px;
+    margin-top: 16px;x
     overflow: hidden;
     align-items: center;
     justify-content: flex-end;
@@ -187,6 +187,7 @@ section {
     width: 10vw;
     cursor: pointer;
     border-radius: 6px;
+    margin-top: 16px;
 }
 
 .slide-content {
