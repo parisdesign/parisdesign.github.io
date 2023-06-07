@@ -39,6 +39,7 @@ header.black {
 .point {
     width: 13px;
     height: 13px;
+    border-radius: 2px;
     margin: 10px 0;
     background-color: #707070;
 }
